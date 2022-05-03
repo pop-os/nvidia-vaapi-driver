@@ -1,0 +1,31 @@
+Source: nvidia-vaapi-driver
+Section: utils
+Priority: optional
+Maintainer: Michael Aaron Murphy <mmstick@pm.me>
+Build-Depends:
+    debhelper-compat (=12),
+    libegl-dev,
+    libffmpeg-nvenc-dev,
+    libglib2.0-dev,
+    libglvnd-dev,
+    libgstreamer1.0-dev,
+    libgstreamer-plugins-bad1.0-dev,
+    libva-dev,
+    pkgconf,
+    meson,
+Standards-Version: 4.1.1
+Homepage: https://github.com/elFarto/nvidia-vaapi-driver
+
+Package: nvidia-vaapi-driver
+Architecture: i386 amd64 arm64
+Depends:
+    libegl1,
+    libglib2.0-0,
+    libglvnd0,
+    libgstreamer1.0-0,
+    libgstreamer-plugins-bad1.0-0,
+    libva2,
+    ${misc:Depends},
+    ${shlibs:Depends}
+Description: NVDEC VAAPI support for NVIDIA drivers
+
