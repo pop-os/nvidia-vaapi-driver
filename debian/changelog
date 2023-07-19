@@ -1,0 +1,17 @@
+nvidia-vaapi-driver (0.0.10-1) jammy; urgency=medium
+
+  * Backport to Pop
+
+ -- Michael Murphy <michael@mmurphy.dev>  Wed, 19 Jul 2023 17:01:12 +0200
+
+nvidia-vaapi-driver (0.0.8-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Lu YaNing <dluyaning@gmail.com>  Mon, 26 Dec 2022 01:55:50 +0000
+
+nvidia-vaapi-driver (0.0.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1007264)
+
+ -- Lu YaNing <dluyaning@gmail.com>  Wed, 16 Feb 2022 11:12:51 +0000
